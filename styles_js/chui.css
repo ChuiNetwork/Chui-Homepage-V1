@@ -1,0 +1,51 @@
+.logo {
+	max-width: 225px;
+}
+.main-header-01 {
+	background: #4CAF50;
+}
+.bg-1 {
+	background-color: #5487c6;
+}
+.bg-2 {
+	background-color: #f4c856;
+}
+.bg-3 {
+	background-color: #546589;
+}
+.bg-4 {
+	background-color: #b1a8d0;
+}
+.text-color-1 {
+	color: #5487c6;
+}
+.text-color-2 {
+	color: #f4c856;
+}
+.text-color-3 {
+	color: #546589;
+}
+.text-color-4 {
+	color: #b1a8d0;
+}
+
+.col-equal {
+	display: flex;
+	flex-wrap: wrap;
+}
+.with-radius {
+	border-radius: 0.25rem;
+}
+
+@media only screen and (max-width: 640px) {
+	.logo {
+		max-width: 155px;
+	}
+
+	.cookie-consent-banner__cta{
+		width: 100%;
+		margin: 10px 0 !important;
+	}
+
+}
+
